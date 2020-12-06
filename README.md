@@ -6,9 +6,9 @@
 
 This trivial repo exists to demo how easy it is to convert an Escript to an Elixir/Erlang Release.
 
-At my current job, `escript`s are being used to run code in production, and keeping these `escript`s in sync with the version of Erlang installed on each server and on our Jenkins build server is an unnecessary headache. It also forces all Elixir/Erlang releases built on the same Jenkins server to stay pinned to the same Elixir/Erlang version installed on our servers.
+At my current job, `escript`s are being used to run code in production, and keeping these `escript`s in sync with the version of Erlang installed on each server and on our Jenkins build server is an unnecessary headache. It also forces all Elixir/Erlang releases and escripts built on our Jenkins server to stay pinned to the same Elixir/Erlang version installed on our servers.
 
-I want to convince my colleagues to convert our `escript`s to Elixir/Erlang releases, into which they can compile ERTS, severing the dependency with / coupling to the server-installed Erlang. Once we do this, we'll be able to upgrade each release independently and avoid the headache of keeping our server-installed Erlang version in sync with all escripts relying on it.
+I want to convince my colleagues to convert our `escript`s to Elixir/Erlang releases, into which they can compile ERTS, severing the dependency with / coupling to our current server-installed Erlang version. Once we do this, we'll be able to upgrade each release independently and avoid the headache of keeping our server-installed Erlang version in sync with all releases and escripts relying on it.
 
 ### Build & run this app as an Elixir/Erlang Escript
 
