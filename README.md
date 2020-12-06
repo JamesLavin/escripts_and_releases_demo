@@ -12,6 +12,8 @@ I want to convince my colleagues to convert our `escript`s to Elixir/Erlang rele
 
 ### Build & run this app as an Elixir/Erlang Escript
 
+The following will build `LsEscript` as an `escript` and list all files in the current working directory's parent directory:
+
 ```
 mix escript.build
 
@@ -19,6 +21,8 @@ mix escript.build
 ```
 
 ### Build & run this app as an Elixir/Erlang Release
+
+The following will build `LsEscript` as an Elixir/Erlang release that compiles in the Erlang Runtime System (ERTS), then run it to list all files in the current working directory's parent directory:
 
 ```
 MIX_ENV=prod mix release ls_escript
