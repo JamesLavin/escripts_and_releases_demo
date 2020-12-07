@@ -31,7 +31,7 @@ The following will build `LsEscript` as an Elixir/Erlang release that compiles i
 ```
 MIX_ENV=prod mix release ls_escript
 
-_build/prod/rel/ls_escript/bin/ls_escript eval "LsEscript.main([\"ls\", \"..\"])"
+_build/prod/rel/ls_escript/bin/ls_escript eval 'LsEscript.main(["ls", ".."])'
 ```
 
 ## Installation
